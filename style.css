@@ -30,7 +30,7 @@ header{
 
 .menu{
     width: 60%;
-    line-height: 2px;
+    line-height: 35px;
 }
 
 .logo,
@@ -64,4 +64,13 @@ li a{
     text-decoration: none;
     padding: 10px 10px;
     border-radius: 20px;
+}
+
+/* SEZIONE BANNER */
+.banner{
+    width: 100vw;
+    height: 500px;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    position: relative;
 }
