@@ -74,3 +74,18 @@ li a{
     background-size: cover;
     position: relative;
 }
+
+.contenuto-banner{
+    width: 40%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenuto-banner p{
+    margin-top: 20px;
+
+}
