@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 /* HEADER */
 header{
     padding: 20px 0px;
@@ -67,6 +71,10 @@ li a{
     text-decoration: none;
     padding: 10px 10px;
     border-radius: 20px;
+}
+.button,
+.menu{
+    font-size: 12px;
 }
 
 /* SEZIONE BANNER */
