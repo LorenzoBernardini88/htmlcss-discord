@@ -56,9 +56,11 @@ li a{
     color: white;
     text-decoration: none;
 }
-
 .button-nav{
     float: right;
+}
+.button-nav,
+.btn-1-banner{
     background-color: white;
     color: black;
     text-decoration: none;
@@ -86,6 +88,13 @@ li a{
 }
 
 .contenuto-banner p{
-    margin-top: 20px;
+    margin: 20px;
+}
 
+.btn-2-banner{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 20px;
 }
