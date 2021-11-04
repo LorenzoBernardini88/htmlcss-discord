@@ -9,7 +9,36 @@ header{
     width: 100vw;
     background-color: dodgerblue;
 }
+
 .contenitore{
+    height: 100%;
     width: 90%;
     margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    
+
+
+ul li{
+    float: left;
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+    
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+.button-nav{
+    float: right;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 20px;
 }
