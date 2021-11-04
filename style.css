@@ -56,9 +56,11 @@ li a{
     color: white;
     text-decoration: none;
 }
+
 .button-nav{
-    float: right;
+    float:right
 }
+
 .button-nav,
 .btn-1-banner{
     background-color: white;
