@@ -5,9 +5,16 @@
 }
 /* HEADER */
 header{
-    height: 70px;
+    padding: 20px 0px;
     width: 100vw;
     background-color: dodgerblue;
+}
+
+.clearfix::after
+{
+    content:'';
+    clear:both;
+    display:table;
 }
 
 .contenitore{
@@ -16,17 +23,32 @@ header{
     margin: 0 auto;
 }
 
-.logo{
-    float: left;
-    
+.logo,
+.nav-accedi{
+    width: 20%;
+}
 
+.menu{
+    width: 60%;
+}
+
+.logo,
+.menu{
+    float:left;
+}
+
+.nav-accedi{
+    float:right;
+}
+
+ul{
+    text-align: center;
+}
 
 ul li{
-    float: left;
     display: inline-block;
     list-style: none;
     padding-right: 30px;
-    
 }
 
 li a{
